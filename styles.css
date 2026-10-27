@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative; 
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+ 
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  border: 2px solid black;
+}
+
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  
+  color: purple;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap; 
+}
